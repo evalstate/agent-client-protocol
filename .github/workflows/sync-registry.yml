@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
   # Run hourly to pick up registry changes
-  schedule:
-    - cron: "15 * * * *" # Every hour at :15
+#  schedule:
+#    - cron: "15 * * * *" # Every hour at :15
 
 jobs:
   sync:
